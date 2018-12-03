@@ -1,0 +1,75 @@
+.meet_staff {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(300px, auto);
+  }
+  .item_one {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    text-align: center;
+    border: solid;
+  }
+  .item_two { 
+    border: solid;
+  }
+  .item_three {
+    border: solid;
+  }
+  .item_four {
+    border: solid;
+  }
+  .item_five {
+    border: solid;
+  }
+  .item_six {
+    border: solid;
+  }
+  .item_seven {
+    border: solid;
+  }
+  .item_eight {
+    grid-column: 3;
+    grid-row: 3 / 5;
+    text-align: center;
+    border: solid;
+  }
+  .item_nine {
+    border: solid;
+  }
+  .item_ten {
+    border: solid;
+  }
+
+header {
+    background-image: url("http://downtownspokane.org/wp-content/uploads/2017/12/Spokane-Chiefs-Discount-Article-Promo-600x375.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 15px 50px 300px 15px;
+}
+
+nav p {
+    background-color: #c51230;
+    padding: 10px;
+}
+
+.coaches {
+
+}
+
+footer {
+    background-color: #c51230;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: lightblue; 
+}
