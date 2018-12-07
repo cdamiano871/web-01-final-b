@@ -42,7 +42,7 @@
   }
 
 header {
-    background-image: url("http://downtownspokane.org/wp-content/uploads/2017/12/Spokane-Chiefs-Discount-Article-Promo-600x375.jpg");
+    background-image: url("http://whl.uploads.s3.amazonaws.com/app/uploads/spokane_chiefs/2016/01/06131259/Generic203.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,7 +51,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     color: white;
-    padding: 15px 50px 300px 15px;
+    padding: 15px 50px 500px 15px;
 }
 
 nav p {
