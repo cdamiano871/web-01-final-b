@@ -10,23 +10,41 @@
     text-align: center;
     border: solid;
   }
-  .item_two { 
+  .woods { 
     border: solid;
+    background-image: url("http://assets.leaguestat.com/whl/240x240/27249.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .item_three {
+  .tsmith {
     border: solid;
+    background-image: url("http://assets.leaguestat.com/whl/240x240/27208.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .item_four {
+  .zummack {
     border: solid;
+    background-image: url("http://whl.uploads.s3.amazonaws.com/app/uploads/spokane_chiefs/2017/09/07113513/Zummack_Eli-320x320.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .item_five {
+  .mcgrew {
     border: solid;
+    background-image: url("http://whl.uploads.s3.amazonaws.com/app/uploads/spokane_chiefs/2017/09/07113437/McGrew_Jake-320x320.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .item_six {
+  .chorney {
     border: solid;
+    background-image: url("http://whl.uploads.s3.amazonaws.com/app/uploads/spokane_chiefs/2016/09/13115051/Chorney_Carter-1-320x320.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .item_seven {
+  .reid {
     border: solid;
+    background-image: url("http://assets.leaguestat.com/whl/240x240/26627.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .item_eight {
     grid-column: 3;
@@ -34,12 +52,25 @@
     text-align: center;
     border: solid;
   }
-  .item_nine {
+  .beckman {
     border: solid;
+    background-image: url("https://pbs.twimg.com/profile_images/1049008951818244096/F92-KKOu_400x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .item_ten {
+  .mcindoe {
     border: solid;
+    background-image: url("https://scontent-lhr3-1.cdninstagram.com/vp/b92d445c76bec0cb188ba706d1c3d231/5C33AC96/t51.2885-15/e35/39568912_272274943387594_7362868976767991808_n.jpg?ig_cache_key=MTg1NzA0ODE2Mjk2MTE5MTU1NA%3D%3D.2?se=1");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+.item_one, 
+.item_eight {
+  text-align: center;
+  font-size: 25pt;
+  padding-top: 260px;
+}
 
 header {
     background-image: url("http://whl.uploads.s3.amazonaws.com/app/uploads/spokane_chiefs/2016/01/06131259/Generic203.jpg");
@@ -68,7 +99,19 @@ a {
 }
 
 footer {
-    background-color: #c51230;
+  background-color: #c51230;
+  padding: 50px;
+  font-size: 17pt;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  color: white; 
+  padding: 0px 40px;
 }
 
 /* Media Queries */
