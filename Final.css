@@ -113,6 +113,27 @@ ul li {
   padding: 0px 40px;
 }
 
+#meet_coaches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(300px, auto);
+}
+
+div p {
+  border: solid;
+}
+
+.general, 
+.coach,
+.assistant,
+.trainer,
+.equipment {
+  text-align: center;
+  font-size: 15pt;
+  padding-top: 100px;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 650px) {
